@@ -1,3 +1,16 @@
+---
+layout : post
+title : Hello world
+data : 2014-03-27
+comments : true
+archive : false
+---
+
+layout | title | data | comments | archive|
+------|------|------|------|-------|
+post | Hello world | 2014-03-27 | true | false |
+
+
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio template for Software Developers!
 
@@ -71,14 +84,4 @@ To view a live example, **[click here](https://varadbhogayata.github.io/)**
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
 
----
-layout : post
-title : Hello world
-data : 2014-03-27
-comments : true
-archive : false
----
 
-layout | title | data | comments | archive|
-----|----|----|----|-----|
-post | Hello world | 2014-03-27 | true | false |
