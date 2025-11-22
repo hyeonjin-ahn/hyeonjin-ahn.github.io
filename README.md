@@ -84,4 +84,5 @@ To view a live example, **[click here](https://varadbhogayata.github.io/)**
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
 
-
+> [!Tip]
+> Set your environment variable `HF_TOKEN` or pass in `--hf-token` to the command in order to validate your access. You can find your token at https://huggingface.co/settings/tokens
