@@ -86,3 +86,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 > [!Tip]
 > Set your environment variable `HF_TOKEN` or pass in `--hf-token` to the command in order to validate your access. You can find your token at https://huggingface.co/settings/tokens
+
+> [!NOTE]
+> [!INFO]
