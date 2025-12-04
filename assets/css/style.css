@@ -59,20 +59,11 @@ ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.l
   height: auto;
 }
 
-.tracker {
-  /* visibility: hidden; */
-  position: fixed;
-  /* margin-inline-end: auto;  */
-  bottom: 0; 
-  right: 0;
-}
-
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 .social {
   margin: 0 auto;
   width: auto;
   text-align: inherit;
-  /* padding: 10px; */
 }
 
 .icon-btn {
@@ -90,15 +81,11 @@ ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.l
 }
 
 .github {
-  color: black;
+  color: rgb(4, 106, 230);
 }
 
 .linkedin {
   color: #0077b5;
-}
-
-.angellist {
-  color: grey;
 }
 
 .icon-btn:hover {
@@ -106,57 +93,12 @@ ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.l
   color: #FFFFFF;
 }
 
-.linkedin:hover {
-  background-color: #0077b5;
-}
-
-.angellist:hover {
-  background-color: grey;
-}
-
 .github:hover {
   background-color: black;
 }
 
-/* Buttons - Read Me, Contact Us */
-
-.readme {
-  position: relative;
-  padding: 11px 35px;
-  background: #fff;
-  color: #067091;
-  border: 2px solid #fff;
-  font-weight: 600;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-}
-
-.contactme {
-  position: relative;
-  padding: 11px 35px;
-  background: none;
-  color: #fff;
-  border: 2px solid #fff;
-  font-weight: 600;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  margin-top: 1.5em;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-}
-
-.contactme:hover{
-  color: #067091;
-  background-color: white;
-}
-/* main body */
 
 /* body-color */
-
 body {
   color: #333;
   font-size: 18px;
@@ -167,26 +109,7 @@ a {
   color: #001c4d;
 }
 
-/* blockquote {
-  border-left: 5px solid #795548;
-  color: #795548;
-  font-size: 125%;
-  font-weight: 400;
-  margin: 20px 0;
-  padding-left: 1.5rem;
-} */
-
-/* blockquote * {
-  font-size: inherit;
-  line-height: inherit;
-} */
-
-/* .text-center {
-  text-align: center;
-} */
-
 /* main nav */
-
 nav {
   background: white;
   box-shadow: none;
@@ -200,7 +123,6 @@ nav i {
 }
 
 /* main */
-
 main {
   background: url(../../assets/img/bg.png) repeat;
   padding-left: 190px;
@@ -220,8 +142,6 @@ dt {
   display: inline-block;
   margin-left: 0.5rem;
 }
-
-
 
 li.logo span {
   display: block;
@@ -320,94 +240,6 @@ h3 {
   background-color: rgba(33, 150, 243, 0.2);
 }
 
-.card {
-  margin-bottom: 60px;
-}
-
-.card .role {
-  font-size: 1.25rem;
-  position: relative;
-  right: 38px;
-  top: 35px;
-}
-
-.card li a {
-  margin-right: 0;
-  color: #333;
-  border-bottom: 2px solid #ffab40;
-}
-
-.card li a:hover {
-  color: #333;
-  font-weight: 500;
-}
-
-.card .card-content {
-  padding-bottom: 30px;
-}
-
-.card .card-content p {
-  padding: 5px 0 0;
-}
-
-.card h5 {
-  font-size: 1.5rem;
-  margin-bottom: -0.5rem;
-  margin-top: 2rem;
-}
-
-.card h6 {
-  font-weight: 300;
-  letter-spacing: 1px;
-  margin-top: 2rem;
-  text-transform: uppercase;
-}
-
-#experience .card-action {
-  /* background-color: rgba(0, 0, 0, 0.02); */
-  border: none;
-}
-
-#experience .card .col.s12.m2 a {
-  display: block;
-}
-
-/* #experience .card .col.s12.m2 a img {
-  max-height: 60px;
-} */
-
-.card-action span {
-  font-size: 85%;
-  color: #666;
-}
-
-.card ul {
-  margin-bottom: 0;
-}
-
-.card ul li {
-  line-height: 200%;
-  list-style-type: disc;
-  margin-left: 24px;
-}
-
-.card ul li li {
-  color: #666;
-  font-size: 13px;
-}
-
-.card .card-title {
-  font-size: 24px;
-}
-
-.card .card-content .card-title {
-  line-height: 2.5rem;
-}
-
-.card i.right {
-  margin-left: 10px;
-}
-
 a.hoverline {
   border-bottom: 3px solid transparent !important;
   padding: 3px 3px 0 3px;
@@ -420,6 +252,10 @@ a.hoverline:hover {
   border-bottom: 3px solid #001e4d !important;
 }
 
+#about h2{
+  font-weight:500; 
+  color:#0077b5;
+}
 #skills .card.large {
   height: 360px;
 }
@@ -439,27 +275,9 @@ a.hoverline:hover {
   display: table-cell;
 }
 
-.card.large .card-content p {
-  color: inherit;
-  margin: 0;
-  padding: 30px 0;
-}
-
-#experience .card-content .row {
+.row{
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
-}
-
-.card.large .card-content {
-  height: auto;
-}
-
-.card.medium .card-image {
-  height: 240px;
-}
-
-.card-action a.btn-floating {
-  margin-bottom: 0;
 }
 
 #contact a:not(.btn-floating) {
@@ -468,26 +286,11 @@ a.hoverline:hover {
   position: relative;
 }
 
-#experience .col.s12.m2 {
-  text-align: center;
-}
-
-.fa-external-link:before {
-  left: 3px;
-  position: relative;
-  top: 2px;
-}
-
 small {
   display: none;
 }
 
-.grey-text {
-  color: #666 !important;
-}
-
 /* main .teal-text */
-
 .teal-text {
   color: #067091 !important;
 }
@@ -497,21 +300,7 @@ small {
   color: #ffab40;
 }
 
-/* .teal {
-  background-color: #00695c !important;
-} */
-
-#education .row {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-}
-
-#about{
-  margin-bottom: 25%;
-}
-
-
-/* 전체 항목 컨테이너 스타일 */
+/* Experience, education 스타일 : 기존 스타일 삭제 후 추가 */
 .resume-item {
     margin-bottom: 30px; /* 항목 간 간격 */
     padding: 15px 0;
@@ -571,30 +360,6 @@ small {
     display: inline-block; /* 내용만큼만 너비 차지 */
 }
 
-
-
-
-
-
-/* @media (min-width: 1200px) {
-  #experience .container {
-    width: 860px;
-  }
-} */
-
-@media (max-width: 1360px) {
-  .card ul li {
-    font-size: 14px;
-    line-height: 200%;
-    margin-left: 20px;
-  }
-}
-
-@media (max-width: 1160px) {
-  .card ul li {
-    line-height: 150%;
-  }
-}
 
 @media (max-width: 992px) {
   main {
@@ -656,11 +421,6 @@ small {
   section#intro {
     margin-bottom: -64px;
   }
-  .card .role {
-    position: relative;
-    right: initial;
-    top: initial;
-  }
 }
 
 @media (max-width: 600px) {
@@ -677,18 +437,7 @@ small {
   #intro.section .container *:not(span,h1) {
     padding: 0;
   }
-  .card .card-content .card-title {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  #experience span.card-title {
-    text-align: center;
-    display: block;
-  }
- 
-  #experience span.card-title a {
-    margin: 0;
-  }
+
   i.mdi-navigation-close.right {
     position: relative;
     bottom: 15px;

@@ -8,15 +8,22 @@
   <meta http-equiv="Expires" content="0"/>
   
   <title>hyeonjin-ahn | Software Developer</title>
-
+  
+  <!-- 인덱싱을 위한 Google 사이트 검증 -->
+  <!-- <meta name="google-site-verification" content="..."> -->
   <!-- Materialize - Compiled and minified CSS-->
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
   <!-- Font Awesome Icon - CSS-->
-  <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" /> -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
   <!-- Custom Styles-->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/favicon/apple-icon-57x57.png" />
+  <!-- Google Tag Manager (noscript) -->
+  <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> -->
+
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/favicon/apple-icon-57x57.png" />
   <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/favicon/apple-icon-60x60.png" />
   <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/favicon/apple-icon-72x72.png" />
   <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicon/apple-icon-76x76.png" />
@@ -29,23 +36,22 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="96x96" href="./assets/img/favicon/favicon-96x96.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
+  <link rel="manifest" href="./assets/img/favicon/manifest.json" />
+  <!-- <meta name="msapplication-TileColor" content="#ffffff" />
   <meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png" />
   <meta name="theme-color" content="#ffffff" />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="hyeonjin-ahn" />
   <meta name="description" content="Software Developer with a passion for backend development and artificial intelligence." />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="robots" content="index, follow" /> -->
+  <meta name="msapplication-TileCmage" content="./assets/img/favicon/ms-icon-144x144.png" /> -->
+  
   <!-- jQuery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
   <!-- Materialize - Compiled and minified JavaScript-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
   <script>
+    //스크롤 하면 현재 페이지 섹션에 해당하는 메뉴 색상이 변경됨
     // Materialize - Initializers
     $(document).ready(function () {
       $(".scrollspy").scrollSpy()
@@ -61,7 +67,7 @@
 </head>
 <body>
   <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
+  <!-- Nav class 1 : main 좌측 메뉴 -->
   <nav class="hide-on-small-only">
     <ul class="side-nav fixed section table-of-contents">
       <li class="logo">
@@ -81,11 +87,10 @@
             class="mdi-action-trending-up small"></i><span>Experience</span></a>
       </li>
 
-      <!-- 오픈할 프로젝트가 따로 없어서 Projects 메뉴를 주석처리 -->
-      <!-- <li class="bold">
+      <li class="bold">
         <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
             class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li> -->
+      </li>
 
       <li class="bold">
         <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
@@ -106,7 +111,7 @@
       </li>
     </ul>
   </nav>
-  <!-- Nav class 2 -->
+  <!-- Nav class 2 : 모바일 모드 탑 메뉴 -->
   <nav class="hide-on-large only trigger z-depth-1">
     <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
       class="button-collapse"><i class="mdi-navigation-menu"></i></a>
@@ -114,7 +119,7 @@
       <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">hyeonjin-ahn</a><span class="black-text">Software Developer</span>
     </div>
   </nav>
-  <!-- Nav class 3 -->
+  <!-- Nav class 3 : 모바일 모드 햄버거 메뉴 -->
   <nav class="hide-on-large only">
     <ul id="slide-out" class="side-nav">
       <li class="bold">
@@ -126,11 +131,10 @@
           class="waves-effect waves-dark teal-text"><i
             class="mdi-action-trending-up small"></i><span>Experience</span></a>
       </li>
-      <!-- 오픈할 프로젝트가 따로 없어서 Projects 메뉴를 주석처리 -->
-      <!-- <li class="bold">
+      <li class="bold">
         <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
             class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li> -->
+      </li>
       <li class="bold">
         <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
             class="mdi-action-assessment small"></i><span>Skills</span></a>
@@ -162,20 +166,27 @@
               <h5>A <span class="typing"></span></h5>
               <p>새로운 환경에 적응이 빠르고 호기심이 많고, 문제를 해결하는 것을 즐기는 프로그래머입니다.</p>
             </div>
+            <div class="social">
+                <a href="https://github.com/hyeonjin-ahn/" target="_blank">
+                  <button class="icon-btn github">
+                    <i class="fa fa-github"></i>
+                  </button>
+                </a>
+              </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- about Section -->
-    <section id="about" class="section scrollspy">
+    <section id="about" class="section scrollspy full-height">
       <h3 class="page-title white-text teal">About</h3>
       <div class="container flow-text">
-        <h2 style="font-weight:500; color:#0077b5;">정말 아는 만큼만 보인다</h2>
-        2015년 JAVA 개발자로 시작하였고 다양한 환경에서 적응하고 커뮤니케이션하며 문제해결을 하며 프로젝트들을 끝내왔습니다.<br/>
+        <h2>정말 아는 만큼만 보인다</h2>
+        2015년 프리랜서 JAVA 개발자로 시작하였고 다양한 환경에서 적응하고 커뮤니케이션하며 문제해결을 하며 프로젝트들을 끝내왔습니다.<br/>
         짧게나마 경력이 쌓이고 나니 <i>아는 만큼 보인다</i>는 말이 너무나 공감되었습니다.<br/>
         IT용어뿐만 아니라 코드의 이해, 프로젝트 파악, 문제 발생시 원인 분석 및 처리 등 모두 포괄되어있었습니다.
-        지금도 꾸준히 지식과 경험을 쌓아 발전하여 조금씩 더 나아진 개발자가 되고자 합니다.
+        지금도 꾸준히 지식과 경험을 쌓아 발전하여 더 나아가는 개발자가 되고자 합니다.
       </div>
     </section>
 
@@ -196,7 +207,7 @@
               <li>단말기데이터와 모바일 호출 데이터-> aws->Kafka->DB</li>
               <li>JAVA(Spring Boot) Kafka데이터를 받아 DB저장 및 UI 화면 작업</li>
               <p class="item-caption">
-                  **기술 스택:** HTML5, JavaScript, JAVA, Kafka, Oracle<br/>
+                  **기술 스택: JSP, JAVA, Kafka, Oracle<br/>
                   **폐쇄망프로젝트이다 보니 kafka 방화벽 문제 발생
               </p>
           </ul>
@@ -208,49 +219,49 @@
               <li>기존 김해교통카드를 담당하던 마이비->서울교통카드로 변경되면서 고도화진행</li>
               <li>컬럼추가 및 쿼리 수정, 데이터 검증</li>
               <p class="item-caption">
-                  **기술 스택:** HTML, Pro-C
+                  **기술 스택: JSP, JAVA, Pro-C
               </p>
           </ul>
         </div>
         <div class="row">
           <h2 class="item-title">동화기업</h2>
           <div class="item-subtitle">
-              <span class="brown-text">스마트팩토리 관련 프로젝트 유지보수</span> | 
+              <span class="brown-text">동화마루 스마트 팩토리 관련 운영업무</span> | 
               <span class="period">2021.06~2022.6</span>
           </div>
           <ul class="item-details">
               <li>각 설비들의 실시간 시계열데이터는 MongoDB로 적재</li>
               <li>기존에 개발된 Ui, 프로시저, 리포트, batch 등 유지보수 관리</li>
               <p class="item-caption">
-                  **기술 스택:** HTML5, JavaScript, JAVA, PostgreSQL, MongoDB, Git, OZ report
+                  **기술 스택: js, JAVA, spring, mybatis, postgreSql, mongoDB, Git, OZ report
               </p>
           </ul>
         </div>
         <div class="row">
-          <h2 class="item-title">(주)LG</h2>
+          <h2 class="item-title">(주)엘지</h2>
           <div class="item-subtitle">
-              <span class="brown-text">LG 경영개발원 LG Way 서베이 시스템 개선</span> | 
-              <span class="period">2021.02~2021.5</span>
+              <span class="brown-text">(주)엘지 경영개발원 LG Way 서베이 시스템 개선</span> | 
+              <span class="period">2021.02~2021.05</span>
           </div>
           <ul class="item-details">
               <li>LG 직원 대상으로 실행하는 설문조사</li>
-              <li>UI개선 및 신규 설문 언어별 import 및 데이터 체크</li>
+              <li>UI개선 및 신규 설문 추가 및 데이터 체크</li>
               <p class="item-caption">
-                  **기술 스택:** HTML5, Oracle, JAVA, OZ report
+                  **기술 스택: JAVA,JSP
               </p>
           </ul>
         </div>
         <div class="row">
           <h2 class="item-title">대법원 전산정보센터</h2>
           <div class="item-subtitle">
-              <span class="brown-text">ActiveX제거 고도화</span> 
-              <span class="period">2020.09~2021.1</span>
+              <span class="brown-text">2020 사법업무고도화 - ActiveX제거 고도화</span> 
+              <span class="period">2020.09~2021.01</span>
           </div>
           <ul class="item-details">
-              <li>ActiveX를 제거하고 웹 표준(HTML5, Non-ActiveX) 기반의 서비스로 전환</li>
+              <li>ActiveX를 제거하고 웹 표준(Non-ActiveX) 기반의 서비스로 전환</li>
               <li>기존에 사용하던 AnySignForPC, INNORIX, ePapyrus 등 해당 모듈 관련 개발 소스 수정</li>
               <p class="item-caption">
-                  **기술 스택:** HTML5, JavaScript
+                  **기술 스택: JAVA, javascript
               </p>
           </ul>
         </div>
@@ -261,11 +272,11 @@
               <span class="period">2020.06~2020.08</span>
           </div>
           <ul class="item-details">
-              <li>시스템 신규페이지 추가</li>
+              <li>신규페이지 기능개발</li>
+              <p class="item-caption">
+                  **기술 스택: JAVA,JSP
+              </p>
           </ul>
-          <p class="item-caption">
-              **기술 스택:** HTML5, JavaScript, JAVA, Oracle
-          </p>
         </div>
         <div class="row">
           <h2 class="item-title">우정사업본부</h2>
@@ -274,11 +285,11 @@
               <span class="period">2019.01~2020.03</span>
           </div>
           <ul class="item-details">
-              <li>UI 화면 및 프레임워크 전환</li>
+              <li>JAVA, exbuilder2->Xbuilder6 FW 및 UI 전환</li>
+              <p class="item-caption">
+                  **기술 스택: JAVA, Devon FW, Xbuilder6, Oracle
+              </p>
           </ul>
-          <p class="item-caption">
-              **기술 스택:** JAVA, Devon FW, Xbuilder6, Oracle
-          </p>
         </div>
         <div class="row">
           <h2 class="item-title">AML(자금세탁방지서비스) 고도화</h2>
@@ -289,17 +300,16 @@
           <ul class="item-details">
               <li>고객 및 거래를 모니터링하고 혐의거래를 KoFIU에 보고</li>
               <li>각 은행별 3~4개월간 고도화 진행. UI수정 및 프로시저 수정</li>
+              <p class="item-caption">
+                  **기술 스택: JAVA, JSP, Flex(UI), Axisj(UI)
+              </p>
           </ul>
-          <p class="item-caption">
-              **기술 스택:** JAVA, javascript, Oracle, Flex(UI), Axisj(UI)
-          </p>
         </div>
       </div>
     </section>
 
     <!-- projects Section -->
-    <!-- 
-    <section id="projects" class="section scrollspy">
+    <section id="projects" class="section scrollspy full-height">
       <h3 class="page-title white-text teal">Projects</h3>
       <div class="container">
         <div class="row">
@@ -307,10 +317,10 @@
         </div>
       </div>
     </section> 
-    -->
+   
 
     <!-- Skills Section -->
-    <section id="skills" class="section scrollspy">
+    <section id="skills" class="section scrollspy full-height">
       <h3 class="page-title white-text teal">Skills</h3>
       <div class="container">
         <ul class="item-details">
@@ -323,7 +333,7 @@
     </section>
     
     <!-- Education Section -->
-    <section id="education" class="section scrollspy">
+    <section id="education" class="section scrollspy full-height">
       <h3 class="page-title white-text teal">Education</h3>
       <div class="container">
         <div class="row">
@@ -359,7 +369,7 @@
         <p>
           <a aria-label="Email" href="mailto:12207526@iscu.ac.kr" target="_blank" data-position="top"
             data-tooltip="Email" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Email" href="mailto:@gmail.com"
+              class="fa fa-envelope"></i><a aria-label="Email" href="mailto:12207526@iscu.ac.kr"
               class="hoverline">12207526@iscu.ac.kr</a></a>
         </p>
         <p>
@@ -373,7 +383,7 @@
     </section>
 
   <!-- typed.js -->
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="./assets/vendor/typed.js/typed.min.js"></script>
   <script type="text/javascript">
     var typed = new Typed('.typing',{
       strings: ["Developer", "Fast Learner"],
@@ -382,24 +392,5 @@
       backSpeed: 40
     });
   </script>
-
-  <script src="./assets/js/script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-  <!-- Google Site Verification for indexing -->
-  <!-- <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" /> -->
-<!-- </head> -->
-
-<!-- <body> -->
-  <!-- Google Tag Manager (noscript) -->
-  <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript> -->
-
-     <!-- 아이콘 사용 시 npm install @mdi/font -->
