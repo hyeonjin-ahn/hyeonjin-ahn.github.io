@@ -360,6 +360,38 @@ small {
     display: inline-block; /* 내용만큼만 너비 차지 */
 }
 
+.skill-box {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  text-align: left;
+}
+
+.skill-box li {
+  /* font-size: 0.9em; */
+  /* width: 120px;
+  height: 100px; */
+  color: #666;
+  background-color: #eaeaea;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s, transform 0.3s;
+  cursor: pointer;
+  white-space: nowrap;     /* 내용 줄바꿈 방지 (선택) */
+  padding: 5px 10px 5px 10px;
+}
+
+/* Hover 시 색상 + 확대 효과 */
+.skill-box li:hover {
+  background-color: #067091;
+  color: white;
+  transform: translateY(-4px);
+}
+
 
 @media (max-width: 992px) {
   main {
