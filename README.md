@@ -39,16 +39,16 @@
 - 생성된 코드를 이 저장소의 `master` 브랜치에 푸시합니다.
 - <b>참고:</b> Google 애널리틱스 계정을 사용하려면 Google 애널리틱스 스크립트 태그 내에서 Google 애널리틱스 계정의 `analyticsId`를 설정해야 합니다.
 > [!TIP]
-  로컬에서 작업시메뉴 아이콘이 안보인다면  
+  로컬에서 작업시 메뉴 아이콘이 안보인다면  
   npm install @mdi/font
 
 ## Sections 📚
-✔️ About me\
-✔️ Experience\
-✔️ Projects \
-✔️ Skills \
-✔️ Education\
-✔️ Contact\
+✔️ About me   
+✔️ Experience  
+✔️ Projects  
+✔️ Skills  
+✔️ Education  
+✔️ Contact  
 
 ## Tools Used 🛠️
 * [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - 정적 웹사이트(HTML, CSS, JS)를 호스팅.
