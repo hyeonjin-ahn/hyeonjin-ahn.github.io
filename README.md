@@ -27,11 +27,11 @@
 ![Spring](https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Springboot](https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 
-## 특징 📋
+## Features 📋
 ⚡️ 반응형  
 ⚡️ `Typed.js` 사용하여 애니메이션 입력
 
-## 설치 및 배포 📦
+## Installation & Deployment 📦
 - 해당 리파지토리를 Fork하고 로컬에 clone하여 개인 취향에 맞게 <b>index.html</b>의 내용을 수정합니다.
 - 필요에 따라 `hyeonjin-ahn.github.io/assets/img/` 디렉토리에서 이미지를 추가하거나 제거하세요.
 - 웹사이트를 가장 쉬운 방법으로 배포하려면 [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages)를 사용하는 것을 적극 권장합니다.
